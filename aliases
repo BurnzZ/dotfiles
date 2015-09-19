@@ -1,0 +1,21 @@
+#----------------------
+# BurnzZ's
+#----------------------
+
+alias ls='ls -GFh'
+alias l="ls -lAhx"
+alias lh="history | tail"
+
+alias v='vim'
+alias ..='cd ..'
+alias cls='clear'
+alias gs='git status'
+
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
+alias ..5="cd ../../../../.."
+
+# To easily empty a file
+alias empty='cat /dev/null >'
