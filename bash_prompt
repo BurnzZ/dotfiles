@@ -59,7 +59,7 @@ prompt_git() {
 
 PS1='\n'                            # new line
 PS1+='\[\e[0;36m\]┌─[\[\e[0m\]'     # L-pipe [
-PS1+='\[\e[0;35m\]\t \d\[\e[0m\]'   # time date
+PS1+='\[\e[1;35m\]\t \d\[\e[0m\]'   # time date
 PS1+='\[\e[0;36m\]]─[\[\e[0m\]'     # ]-[
 PS1+='\[\e[1;32m\]\u\[\e[0m\]'      # username
 PS1+='\[\e[1;36m\]@\[\e[0m\]'       # @
