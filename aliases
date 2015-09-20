@@ -9,10 +9,12 @@ alias v='vim'
 alias ..='cd ..'
 alias cls='clear'
 
+# Git stuff
 alias g='git'
 alias gs='git status'
 alias gc='git commit -m'
-alias gp='git push'
+alias gp='git push origin master'
+alias gd='git diff'
 alias gl='git log'
 alias ga='git add'
 
