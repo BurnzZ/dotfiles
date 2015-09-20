@@ -26,3 +26,6 @@ alias ..5="cd ../../../../.."
 
 # To easily empty a file
 alias empty='cat /dev/null >'
+
+# lolcommit shortcut
+alias lolcommit_init='lolcommits --enable --delay=2 --animate=4 --fork'
