@@ -1,13 +1,11 @@
 #! /bin/bash
 
-# This script will install the dot files into the home dir
-declare -a exception=(install.sh README.md)
-
+declare -a files=(aliases bash_profile bash_prompt exports functions vimrc gitconfig)
 
 # loop through the files
-for file in ./*
-do
-    if [$file == $exception]; then
-        echo $file
-    fi
+for file in ${files[@]}; do
+    sourceFile="$(pwd)/$file"
+    targetFile="$HOME/$(printf "%s" ".$file" | sed "s/.*\/\(.*\)/\1/g")"
+
+    ln -fs $sourceFile $targetFile
 done

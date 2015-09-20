@@ -9,7 +9,9 @@ alias lh="history | tail"
 alias v='vim'
 alias ..='cd ..'
 alias cls='clear'
+
 alias gs='git status'
+alias gc='git commit -m'
 
 alias ..="cd .."
 alias ..2="cd ../.."
