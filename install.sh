@@ -1,6 +1,6 @@
 #! /bin/bash
 
-declare -a files=(aliases bash_profile bash_prompt exports functions vimrc gitconfig)
+declare -a files=(aliases bash_profile bash_prompt exports functions vimrc gitconfig ackrc)
 
 # loop through the files
 for file in ${files[@]}; do
