@@ -13,8 +13,11 @@ alias l="ls -lhAF ${colorflag}"
 alias lh="history | tail"
 
 alias v='vim'
-alias ..='cd ..'
 alias cls='clear'
+alias lo='logout'
+
+# safety first
+alias rm="rm -ir"
 
 # Git stuff
 alias g='git'
