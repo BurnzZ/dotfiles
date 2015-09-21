@@ -1,3 +1,9 @@
+export EDITOR='vim';
+
+# increase Bash history size.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+
 # colorize man pages
 # source: http://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
 export LESS_TERMCAP_mb=$'\E[01;31m'
