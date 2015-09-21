@@ -1,1 +1,21 @@
-Feel free to copy my configs :)
+For this to be as lightweight as possible,
+I've separated my vim files into this repo:
+[https://github.com/BurnzZ/vim-setup](https://github.com/BurnzZ/vim-setup)
+
+These people inspired almost all of my dotfiles:
+* [Paul Irish](https://github.com/paulirish/dotfiles)
+* [Cătălin Mariș](https://github.com/alrra/dotfiles)
+* [Tom Vincent](https://github.com/tlvince/vim-config)
+
+# Installation
+
+```sh
+sudo sh install.sh
+```
+
+
+Warning
+-
+Running `install.sh` would create symlinks into your _home directory_,
+overwriting any existing files. I have yet to improve the script to backup
+current files before writing.
