@@ -3,7 +3,7 @@ md() { mkdir "$1"; cd "$1"; }
 
 # extract anything! omg
 # source: http://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
-extract () {
+extract() {
    if [ -f $1 ] ; then
        case $1 in
            *.tar.bz2)   tar xvjf $1    ;;
