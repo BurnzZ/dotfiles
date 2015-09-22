@@ -1,12 +1,12 @@
 #----------------------
 # BurnzZ's
 #----------------------
-#
+
 # Detect which `ls` flavor is in use
-if ls --color > /dev/null 2>&1; then # GNU `ls`
-    colorflag="--color"
-else # OS X `ls`
-    colorflag="-G"
+if ls --color > /dev/null 2>&1; then 
+    colorflag="--color"  # GNU `ls`
+else 
+    colorflag="-G"       # OS X `ls
 fi
 
 alias l="ls -lhAF ${colorflag}"
