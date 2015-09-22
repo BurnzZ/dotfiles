@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/vim,osx
 
 *.swp
+extra   # extra dotfile I don't want synced
 
 ### Vim ###
 [._]*.s[a-w][a-z]
