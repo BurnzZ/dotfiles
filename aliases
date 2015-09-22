@@ -9,7 +9,7 @@ else
     colorflag="-G"       # OS X `ls
 fi
 
-alias l="ls -lhAF ${colorflag}"
+alias l="ls -lhAF ${colorflag} --group-directories-first"
 alias lh="history | tail"
 
 alias v='vim'
