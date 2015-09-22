@@ -3,13 +3,14 @@
 #----------------------
 
 # Detect which `ls` flavor is in use
-if ls --color > /dev/null 2>&1; then 
-    colorflag="--color"  # GNU `ls`
+#if ls --color > /dev/null 2>&1; then 
+if [ "$(uname)" == "Darwin" ]; then 
+    args="-G"       # OS X `ls
 else 
-    colorflag="-G"       # OS X `ls
+    args="--color--group-directories-first"  # GNU `ls`
 fi
 
-alias l="ls -lhAF ${colorflag} --group-directories-first"
+alias l="ls -lhAF ${args}"
 alias lh="history | tail"
 
 alias v='vim'
