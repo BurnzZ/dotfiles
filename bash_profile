@@ -1,6 +1,6 @@
-export PATH=/usr/local/git/bin:$PATH
-export PATH="/usr/local/mysql/bin:$PATH"
-export PATH="/data/db:$PATH"
+#export PATH=/usr/local/git/bin:$PATH
+#export PATH="/usr/local/mysql/bin:$PATH"
+#export PATH="/data/db:$PATH"
 
 ### copied from:
 ### https://github.com/mathiasbynens/dotfiles/blob/master
