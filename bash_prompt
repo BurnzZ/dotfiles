@@ -1,4 +1,3 @@
-
 # terminal color scheme
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
