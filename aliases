@@ -7,7 +7,7 @@
 if [ "$(uname)" == "Darwin" ]; then 
     args="-G"       # OS X `ls
 else 
-    args="--color--group-directories-first"  # GNU `ls`
+    args="--color --group-directories-first"  # GNU `ls`
 fi
 
 alias l="ls -lhAF ${args}"
