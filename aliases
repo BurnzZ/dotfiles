@@ -14,6 +14,7 @@ alias l="ls -lhAF ${args}"
 alias lh="history | tail"
 
 alias v='vim'
+alias t='tmux'
 alias c='clear'
 alias lo='logout'
 
