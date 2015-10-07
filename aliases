@@ -18,8 +18,8 @@ alias t='tmux'
 alias c='clear'
 alias lo='logout'
 
-# safety first
-alias rm="rm -ir"
+alias rm="rm -ir" #safety trigger
+alias cd-="cd -" #typos
 
 # Git stuff
 alias g='git'
