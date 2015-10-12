@@ -56,6 +56,9 @@ prompt_git() {
 # BurnzZ's poging poging prompt
 #------------------------------------
 
+#TODO: change color of `pwd` at prompt if inside these dirs:
+declare -a highlight=(feeds/main)
+
 PS1='\n'                          # new line
 PS1+='\[\e[1;36m\]┌─[\[\e[0m\]'   # L-pipe [
 PS1+='\[\e[1;35m\]\t \d\[\e[0m\]' # time date
