@@ -1,6 +1,6 @@
 export EDITOR='vim';
 
-# increase Bash history size.
+export HISTTIMEFORMAT="%d/%m/%y %T "
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 
