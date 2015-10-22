@@ -9,3 +9,9 @@
 [user]
 	email = kevinoxy@gmail.com
 	name = BurnzZ
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
