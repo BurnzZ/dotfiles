@@ -15,7 +15,7 @@ shopt -s histappend;
 shopt -s cdspell;
 
 # Add tab completion for many Bash commands (only for OSX)
-if [[ `uname` == 'FreeBSD' ]]; then
+if [[ `uname` == 'Darwin' ]]; then
     if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
         source "$(brew --prefix)/etc/bash_completion";
     elif [ -f /etc/bash_completion ]; then
