@@ -1,6 +1,7 @@
 For this to be as lightweight as possible,
-I've separated my vim files into this repo:
-[https://github.com/BurnzZ/vim-setup](https://github.com/BurnzZ/vim-setup)
+I've separated my vim and tmux files into this repo:
+* [https://github.com/BurnzZ/vim-setup](https://github.com/BurnzZ/vim-setup)
+* [https://github.com/BurnzZ/tmux-setup](https://github.com/BurnzZ/tmux-setup)
 
 These people inspired almost all of my dotfiles:
 * [Paul Irish](https://github.com/paulirish/dotfiles)
