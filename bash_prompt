@@ -57,7 +57,7 @@ prompt_git() {
 #------------------------------------
 
 function cd {
-    builtin cd $@ # call default `cd`
+    builtin cd "$@" # call default `cd`
     update_prompt
 }
 
