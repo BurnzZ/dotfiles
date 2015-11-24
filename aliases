@@ -15,12 +15,15 @@ alias lh="history | tail"
 
 alias v='vim'
 alias vd='vimdiff'
-alias t='tmux'
 alias c='clear'
 alias lo='logout'
 
 alias rm="rm -ir" #safety trigger
 alias cd-="cd -" #typos
+
+# tmux stuff
+alias t='tmux'
+alias ta='tmux a -t'
 
 # Git stuff
 alias g='git'
