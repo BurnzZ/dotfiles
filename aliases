@@ -18,11 +18,12 @@ alias vd='vimdiff'
 alias c='clear'
 alias lo='logout'
 
-alias rm="rm -ir" #safety trigger
+alias rm="rm -i" #safety trigger
 alias cd-="cd -" #typos
 
 # tmux stuff
 alias t='tmux'
+alias tls='tmux ls'
 alias ta='tmux a -t'
 
 # Git stuff
@@ -42,7 +43,8 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias ..5="cd ../../../../.."
 
-alias hk='htop --user=kbernal'
+# easy htop filter
+alias hk='htop -u `whoami`'
 
 # To easily empty a file
 alias empty='cat /dev/null >'
