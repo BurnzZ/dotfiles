@@ -17,6 +17,7 @@ alias v='vim'
 alias vd='vimdiff'
 alias c='clear'
 alias lo='logout'
+alias uzl='unzip -l'
 
 alias rm="rm -i" #safety trigger
 alias cd-="cd -" #typos
@@ -25,6 +26,7 @@ alias cd-="cd -" #typos
 alias t='tmux'
 alias tls='tmux ls'
 alias ta='tmux a -t'
+alias tra='tmux attach-session -dt'
 
 # Git stuff
 alias g='git'
