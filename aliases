@@ -29,6 +29,7 @@ alias t='tmux'
 alias tls='tmux ls'
 alias ta='tmux a -t'
 alias tra='tmux attach-session -dt'
+alias tns='tmux new -s'
 
 # Git stuff
 alias g='git'
