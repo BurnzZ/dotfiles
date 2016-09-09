@@ -33,3 +33,10 @@ function r_ssh() {
         fi
     fi
 }
+
+# xml xi:include shortcut
+function xl() {
+    xmllint --xinclude $1 > temp.xml
+    vim temp.xml
+}
+
