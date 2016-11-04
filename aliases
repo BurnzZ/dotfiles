@@ -15,6 +15,7 @@ alias lh="history | tail"
 
 alias v='vim'
 alias vd='vimdiff'
+alias vdo='vimdiff -o'
 alias c='clear'
 alias lo='logout'
 alias uzl='unzip -l'
@@ -38,7 +39,7 @@ alias gc='git commit -m'
 alias gp='git push origin master'
 alias gpu='git pull origin master'
 alias gsp='git submodule foreach git pull origin master'
-alias gd='git diff'
+alias gdi='git diff'
 alias gl='git log'
 alias ga='git add'
 
