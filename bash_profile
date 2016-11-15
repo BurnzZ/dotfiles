@@ -5,6 +5,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# include expansion of files starting with '.'
+shopt -s dotglob
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
@@ -25,5 +28,5 @@ fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
-	complete -o default -o nospace -F _git g;
+    complete -o default -o nospace -F _git g;
 fi;
