@@ -56,11 +56,7 @@ prompt_git() {
 # BurnzZ's poging poging prompt
 #------------------------------------
 
-function cd {
-    builtin cd "$@" # call default `cd`
-    update_prompt
-}
-
+# NOTE: this has a broken ANSI padding
 function update_prompt {
 
     PS1='\n'                           # new line
