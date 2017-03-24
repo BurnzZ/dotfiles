@@ -33,6 +33,12 @@ alias ta='tmux a -t'
 alias tra='tmux attach-session -dt'
 alias tns='tmux new -s'
 
+# python
+alias p3='python3'
+alias p3f='pip3 freeze'
+alias p3i='pip3 install'
+alias p3u='pip3 uninstall'
+
 # Git stuff
 alias g='git'
 alias gs='git status'
