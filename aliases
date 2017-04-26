@@ -3,8 +3,7 @@
 #----------------------
 
 # Detect which `ls` flavor is in use
-#if ls --color > /dev/null 2>&1; then 
-if [ "$(uname)" == "Darwin" ]; then 
+if [ "$(uname)" = "Darwin" ]; then 
     args="-G"       # OS X `ls
 else 
     args="--color --group-directories-first"  # GNU `ls`
