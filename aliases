@@ -35,6 +35,7 @@ alias p3f='pip3 freeze'
 alias p3i='pip3 install'
 alias p3u='pip3 uninstall'
 alias ea='source env/bin/activate'
+alias en='python3 -m venv env'
 
 # Git stuff
 alias g='git'
