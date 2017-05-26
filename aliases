@@ -23,7 +23,7 @@ alias cd-="cd -" #typos
 
 # tmux stuff
 alias t='tmux'
-alias tls='tmux ls'
+alias tl='tmux ls'
 alias ta='tmux a -t'
 alias tra='tmux attach-session -dt'
 alias tns='tmux new -s'
