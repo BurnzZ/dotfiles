@@ -15,7 +15,6 @@ alias lh="history | tail"
 alias v='vim'
 alias vd='vimdiff'
 alias vdo='vimdiff -o'
-alias lo='logout'
 alias uzl='unzip -l'
 
 alias rm="rm -i" #safety trigger
