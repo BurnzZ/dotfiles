@@ -8,6 +8,7 @@ for file in ${files[@]}; do
     targetFile="$HOME/$(printf "%s" ".$file" | sed "s/.*\/\(.*\)/\1/g")"
     
     if [ -e $file ]; then
+        echo -e "Creating symlink $sourceFile -> $targetFile\n"
         ln -fs $sourceFile $targetFile
     fi
 done
