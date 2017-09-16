@@ -70,3 +70,6 @@ alias lolcommit_init='lolcommits --enable --delay=2 --animate=4 --fork'
 
 # docker
 alias d="docker"
+
+# quick checks on the latest BTC price
+alias bp="curl https://quote.coins.ph/v1/markets/BTC-PHP"
