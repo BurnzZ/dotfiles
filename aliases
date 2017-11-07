@@ -72,4 +72,5 @@ alias lolcommit_init='lolcommits --enable --delay=2 --animate=4 --fork'
 alias d="docker"
 
 # quick checks on the latest BTC price
-alias bp="curl https://quote.coins.ph/v1/markets/BTC-PHP"
+alias bp="curl -s https://quote.coins.ph/v1/markets/BTC-PHP"
+alias bpa="bp | jq '.market.ask'"
