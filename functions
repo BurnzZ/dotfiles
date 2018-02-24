@@ -1,5 +1,5 @@
 # create dir and cd there
-md() { mkdir "$1"; cd "$1"; }
+mf() { mkdir "$1"; cd "$1"; }
 
 # extract anything! omg
 # source: http://nparikh.org/notes/zshrc.txt
