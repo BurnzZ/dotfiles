@@ -35,6 +35,7 @@ alias p3u='pip3 uninstall'
 alias ea='source env/bin/activate'
 alias en='python3 -m venv env'
 alias pe='pipenv'
+alias peg='pipenv graph'
 
 # Git stuff
 alias g='git'
