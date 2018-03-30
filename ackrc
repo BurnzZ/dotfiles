@@ -4,3 +4,6 @@
 --color
 --smart-case
 --sort-files
+
+--ignore-dir=env
+--ignore-dir=env2.7
