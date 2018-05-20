@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obprofiles xmlns="http://www.logitech.com/Cassandra/2013.1/OnboardProfile">
+  <profile name="">
+    <device anglesnapping="0" model="Logitech.Gaming.Mouse.G602" buttoncount="11" reportrate="125" powermode="1">
+      <dpitable shift="1250" currentindex="2" defaultindex="1">
+        <dpi x="750" y="750"/>
+        <dpi x="1000" y="1000"/>
+        <dpi x="1250" y="1250"/>
+        <dpi x="1500" y="1500"/>
+        <dpi x="2000" y="2000"/>
+      </dpitable>
+    </device>
+    <buttons>
+      <button name="Left Click" number="1">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="leftclick"/>
+        </mousefunction>
+      </button>
+      <button name="Right Click" number="2">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="rightclick"/>
+        </mousefunction>
+      </button>
+      <button name="Middle Click" number="3">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="middleclick"/>
+        </mousefunction>
+      </button>
+      <button name="Ctrl + Left" number="4">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="LEFT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Right" number="5">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="RIGHT"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Tab" number="6">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="TAB"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Up" number="7">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="UP"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Alt + Down" number="8">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="DOWN"/>
+          <modifier value="LCTRL"/>
+          <modifier value="LALT"/>
+        </keystroke>
+      </button>
+      <button name="Ctrl + Down" number="9">
+        <keystroke xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/Keystroke">
+          <key value="DOWN"/>
+          <modifier value="LCTRL"/>
+        </keystroke>
+      </button>
+      <button name="DPI Up" number="10">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpiup"/>
+        </mousefunction>
+      </button>
+      <button name="DPI Down" number="11">
+        <mousefunction xmlns="http://www.logitech.com/Cassandra/2010.1/Macros/MouseFunction">
+          <do task="dpidown"/>
+        </mousefunction>
+      </button>
+    </buttons>
+  </profile>
+</obprofiles>
