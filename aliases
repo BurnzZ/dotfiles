@@ -49,6 +49,7 @@ alias gsp='git submodule foreach git pull origin master'
 alias gdi='git diff'
 alias gl='git log'
 alias ga='git add'
+alias gclean='git checkout master && gpu && gfe --prune'
 
 alias gfe='git fetch --all'
 alias gpc='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
