@@ -42,6 +42,7 @@ alias peg='pipenv graph'
 # Git stuff
 alias g='git'
 alias gs='git status'
+alias gst='git stash'
 alias gc='git commit -m'
 alias gp='git push origin master'
 alias gpu='git pull origin master'
