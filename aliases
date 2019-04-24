@@ -52,6 +52,7 @@ alias gdi='git diff'
 alias gl='git log'
 alias ga='git add'
 alias gsm='git checkout master && gpu && gfe --prune'
+alias grs='git reset HEAD~1 --soft'
 
 alias gfe='git fetch --all'
 alias gfep='git fetch --all --prune'
