@@ -81,9 +81,6 @@ alias empty='cat /dev/null >'
 # tree
 alias tree='tree -C --dirsfirst'
 
-# lolcommit shortcut
-alias lolcommit_init='lolcommits --enable --delay=2 --animate=4 --fork'
-
 # docker
 alias d="docker"
 
