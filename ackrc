@@ -7,3 +7,4 @@
 
 --ignore-dir=env
 --ignore-dir=env2.7
+--ignore-dir=build
