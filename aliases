@@ -28,9 +28,9 @@ alias tra='tmux attach-session -dt'
 alias tns='tmux new -s'
 
 # python
+alias p2='python'
 alias p2f='pip freeze'
 alias p3='python3'
-alias p2='python'
 alias p3f='pip3 freeze'
 alias ea='source env/bin/activate'
 alias en='python3 -m venv env'
