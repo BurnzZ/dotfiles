@@ -84,9 +84,6 @@ alias empty='cat /dev/null >'
 # tree
 alias tree='tree -C --dirsfirst'
 
-# docker
-alias d="docker"
-
 # quick checks on the latest crypto prices
 alias bp="curl -s https://quote.coins.ph/v1/markets/BTC-PHP"
 alias be="curl -s https://quote.coins.ph/v1/markets/ETH-PHP"
