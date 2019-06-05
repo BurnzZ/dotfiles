@@ -1,7 +1,3 @@
-#----------------------
-# BurnzZ's
-#----------------------
-
 # Detect which `ls` flavor is in use
 if [ "$(uname)" = "Darwin" ]; then 
     args="-G"       # OS X `ls
