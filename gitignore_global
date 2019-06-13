@@ -3,4 +3,5 @@ env
 env2.7
 *.swp
 *.swo
+*.swn
 .python-version
