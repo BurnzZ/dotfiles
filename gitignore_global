@@ -5,3 +5,4 @@ env2.7
 *.swo
 *.swn
 .python-version
+.DS_Store
