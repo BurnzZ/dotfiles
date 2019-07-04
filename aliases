@@ -64,9 +64,6 @@ alias glg2a="glg2a --all"
 alias ..="cd .."
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
-alias ..4="cd ../../../.."
-alias ..5="cd ../../../../.."
-alias ..6="cd ../../../../../.."
 
 # easy htop filter
 alias hk='htop -u `whoami`'
