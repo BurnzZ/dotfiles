@@ -36,7 +36,6 @@ alias pe='pipenv'
 alias peg='pipenv graph'
 
 # Git stuff
-alias g='git'
 alias gs='git status'
 alias gcm='git commit -m'
 alias gc='git checkout'
