@@ -20,7 +20,7 @@ alias cd-="cd -" #typos
 alias t='tmux'
 alias tl='tmux ls'
 alias ta='tmux a -t'
-alias tra='tmux attach-session -dt'
+alias tra='tmux attach-session -dt'  # refreshes buffer
 alias tns='tmux new -s'
 
 # python
