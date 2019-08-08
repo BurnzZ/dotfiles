@@ -72,9 +72,6 @@ alias ..3="cd ../../.."
 # easy htop filter
 alias hk='htop -u `whoami`'
 
-# To easily empty a file
-alias empty='cat /dev/null >'
-
 # tree
 alias tree='tree -C --dirsfirst'
 
