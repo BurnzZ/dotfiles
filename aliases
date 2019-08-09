@@ -13,8 +13,6 @@ alias vd='vimdiff'
 alias vdo='vimdiff -o'
 alias vp='vim -p'
 
-alias uzl='unzip -l'
-
 alias rm="rm -i" #safety trigger
 alias cd-="cd -" #typos
 
