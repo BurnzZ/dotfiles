@@ -71,8 +71,3 @@ alias hk='htop -u `whoami`'
 
 # tree
 alias tree='tree -C --dirsfirst'
-
-# quick checks on the latest crypto prices
-alias bp="curl -s https://quote.coins.ph/v1/markets/BTC-PHP"
-alias be="curl -s https://quote.coins.ph/v1/markets/ETH-PHP"
-alias bpa="bp | jq '.market.ask'"
