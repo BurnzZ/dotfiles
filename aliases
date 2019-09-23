@@ -32,7 +32,6 @@ alias en='python3 -m venv env'
 alias en2='virtualenv --python=/usr/bin/python2.7 env2.7'
 alias ea2='source env2.7/bin/activate'
 alias pe='pipenv'
-alias peg='pipenv graph'
 
 # Git stuff
 alias gs='git status'
