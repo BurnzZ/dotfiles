@@ -10,7 +10,6 @@ alias lh="history | tail"
 
 alias v='vim'
 alias vd='vimdiff'
-alias vdo='vimdiff -o'
 alias vp='vim -p'
 
 alias rm="rm -i" #safety trigger
