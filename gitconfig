@@ -9,3 +9,4 @@
 	prompt = false
 [alias]
 	d = difftool
+    pushf = push --force-with-lease
