@@ -59,7 +59,7 @@ prompt_git() {
 # NOTE: this has a broken ANSI padding
 function update_prompt {
 
-    PS1='\n'                           # new line
+    PS1='\n\n'                         # new line
     PS1+='\[\e[1;36m\]┌─[\[\e[0m\]'    # L-pipe [
     PS1+='\[\e[1;35m\]\t \d\[\e[0m\]'  # time date
     PS1+='\[\e[1;36m\]]─[\[\e[0m\]'    # ]-[
