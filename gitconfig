@@ -5,6 +5,7 @@
 	name = Kevin Lloyd Bernal
 [diff]
 	tool = vimdiff
+	noprefix = true
 [difftool]
 	prompt = false
 [alias]
