@@ -44,6 +44,7 @@ alias gdc='git d --cached'
 alias ga='git add'
 alias gsm='git checkout master && gpu && gfe --prune'
 alias grs='git reset HEAD~1 --soft'
+alias gbm='git branch --merged master'
 
 alias gfe='git fetch --all'
 alias gfep='git fetch --all --prune'
