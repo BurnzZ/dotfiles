@@ -64,6 +64,7 @@ alias p='poetry'
 alias ..="cd .."
 alias ..2="cd ../.."
 alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
 
 # easy htop filter
 alias hk='htop -u `whoami`'
