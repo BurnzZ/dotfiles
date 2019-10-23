@@ -1,6 +1,7 @@
 .vim-bookmarks
 env
 env2.7
+env3
 build
 *.swp
 *.swo
