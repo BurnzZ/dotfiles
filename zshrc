@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # Add date and time to the current prompt
 export PROMPT='%D %*'$PROMPT
 
+# import other configs to Zsh
 for file in ~/.{path,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
