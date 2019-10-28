@@ -68,5 +68,8 @@ alias ..4="cd ../../../.."
 # easy htop filter
 alias hk='htop -u `whoami`'
 
+# Recursively delete `.DS_Store` files
+alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
+
 # tree
 alias tree='tree -C --dirsfirst'
