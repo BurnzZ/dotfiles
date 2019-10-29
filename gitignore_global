@@ -8,5 +8,6 @@ build
 *.swn
 .python-version
 .DS_Store
+Desktop.ini
 *pyc
 *.bak
