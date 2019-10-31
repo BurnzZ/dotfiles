@@ -1,10 +1,10 @@
-export EDITOR='vim';
+export EDITOR='vim'
 
 export PATH="$HOME/.poetry/bin:$PATH"
 
 export HISTTIMEFORMAT="%d/%m/%y %T "
-export HISTSIZE='32768';
-export HISTFILESIZE="${HISTSIZE}";
+export HISTSIZE='32768'
+export HISTFILESIZE="${HISTSIZE}"
 
 # colorize man pages
 # source: http://serverfault.com/questions/3743/what-useful-things-can-one-add-to-ones-bashrc
