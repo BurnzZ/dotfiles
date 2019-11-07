@@ -25,7 +25,8 @@ alias tns='tmux new -s'
 # python
 alias p2='python'
 alias p2f='pip freeze'
-alias p3='python3'
+alias p='python3'
+alias pf='pip freeze'
 alias ea='source env/bin/activate'
 alias en='python3 -m venv env'
 alias en2='virtualenv --python=/usr/bin/python2.7 env2.7'
@@ -56,9 +57,6 @@ alias glgh="glga | head -30"
 
 alias glg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
 alias glg2a="glg2a --all"
-
-# poetry
-alias p='poetry'
 
 alias ..="cd .."
 alias ..2="cd ../.."
