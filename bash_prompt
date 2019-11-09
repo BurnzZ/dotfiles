@@ -90,4 +90,5 @@ function update_prompt {
     export PS2;
 }
 
+# Make sure to call this to apply the custom prompt
 update_prompt
