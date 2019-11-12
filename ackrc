@@ -9,4 +9,5 @@
 --ignore-dir=env2.7
 --ignore-dir=build
 --ignore-dir=dist
+--ignore-dir=tmp
 --ignore-dir=*.egg-info
