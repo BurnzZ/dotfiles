@@ -8,6 +8,7 @@ build
 *.swn
 .python-version
 .DS_Store
+.Spotlight-V100
 Desktop.ini
 *pyc
 *.bak
