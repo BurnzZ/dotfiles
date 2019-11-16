@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 export PROMPT='%D %*'$PROMPT
 
 # import other configs to Zsh
-for file in ~/.{path,exports,aliases,functions,extra}; do
+for file in ~/.{exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 
