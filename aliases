@@ -71,3 +71,5 @@ alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
 # tree
 alias tree='tree -C --dirsfirst'
+
+alias chmox='chmod -x'
