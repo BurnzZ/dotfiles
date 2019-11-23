@@ -9,6 +9,7 @@ build
 .python-version
 .DS_Store
 .Spotlight-V100
+.Trashes
 Desktop.ini
 *pyc
 *.bak
