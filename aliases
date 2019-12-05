@@ -23,8 +23,6 @@ alias tra='tmux attach-session -dt'  # refreshes buffer
 alias tns='tmux new -s'
 
 # python
-alias p2='python'
-alias p2f='pip freeze'
 alias p='python3'
 alias pf='pip freeze'
 alias ea='source env/bin/activate'
