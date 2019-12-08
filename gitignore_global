@@ -11,5 +11,5 @@ build
 .Spotlight-V100
 .Trashes
 Desktop.ini
-*pyc
+*.pyc
 *.bak
