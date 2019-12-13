@@ -69,3 +69,6 @@ alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias tree='tree -C --dirsfirst'
 
 alias chmox='chmod -x'
+
+# macOS has no `md5sum`, so use `md5` as a fallback
+command -v md5sum > /dev/null || alias md5sum="md5"
