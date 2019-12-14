@@ -6,7 +6,6 @@ I've separated my vim and tmux files into this repo:
 These people inspired almost all of my dotfiles:
 * [Paul Irish](https://github.com/paulirish/dotfiles)
 * [Cătălin Mariș](https://github.com/alrra/dotfiles)
-* [Tom Vincent](https://github.com/tlvince/vim-config)
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 
 # Installation
