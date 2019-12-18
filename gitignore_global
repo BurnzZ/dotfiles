@@ -13,3 +13,4 @@ build
 Desktop.ini
 *.pyc
 *.bak
+.mypy_cache
