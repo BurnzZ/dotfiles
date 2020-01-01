@@ -28,6 +28,7 @@ alias pf='pip freeze'
 alias ea='source env/bin/activate'
 alias en='python3 -m venv env'
 alias pe='pipenv'
+alias pes='pipenv shell'
 
 # Git stuff
 alias gs='git status'
