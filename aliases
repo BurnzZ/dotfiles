@@ -24,7 +24,7 @@ alias tns='tmux new -s'
 
 # python
 alias p='python3'
-alias pf='pip freeze'
+alias pf='pip3 freeze'
 alias ea='source env/bin/activate'
 alias en='python3 -m venv env'
 alias pe='pipenv'
