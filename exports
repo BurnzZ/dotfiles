@@ -26,3 +26,6 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
+
+# For Pipenv to respect active PyEnv
+export PIPENV_PYTHON="$PYENV_ROOT/shims/python"
