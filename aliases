@@ -31,6 +31,7 @@ alias pe='pipenv'
 alias pes='pipenv shell'
 alias pa='pyenv activate'
 alias pd='pyenv deactivate'
+alias pv='pyenv versions'
 
 # Git stuff
 alias gs='git status'
