@@ -68,6 +68,9 @@ alias hk='htop -u `whoami`'
 # Recursively delete `.DS_Store` files
 alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
+# Recursively delete python caches
+alias cleanup_py="find . -type f -iname '*.pyc' -o -iname '*.pyo' -delete && find . -type d -name '__pycache__' -delete"
+
 # tree
 alias tree='tree -C --dirsfirst'
 
