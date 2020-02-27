@@ -3,6 +3,7 @@ env
 env2.7
 env3
 build
+dist
 *.swp
 *.swo
 *.swn
