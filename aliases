@@ -5,7 +5,7 @@ else
     args="--color --group-directories-first"  # GNU `ls`
 fi
 
-alias l="ls -lhAF ${args}"
+alias l="ls -lhAF --group-directories-first ${args}"
 alias lh="history | tail"
 
 alias v='vim'
