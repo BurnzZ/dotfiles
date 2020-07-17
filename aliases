@@ -31,6 +31,8 @@ alias pa='pyenv activate'
 alias pd='pyenv deactivate'
 alias pv='pyenv virtualenv'
 
+alias black='black --skip-string-normalization'
+
 # Git stuff
 alias gs='git status'
 alias gcm='git commit -m'
