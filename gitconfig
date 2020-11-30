@@ -11,5 +11,3 @@
 [alias]
 	d = difftool
     pushf = push --force-with-lease
-[credential]
-	helper = osxkeychain
