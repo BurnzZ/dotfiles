@@ -16,3 +16,4 @@ Desktop.ini
 *.bak
 .mypy_cache
 .cache
+.python-version
