@@ -15,3 +15,5 @@
 --ignore-file=match:.swn$
 --ignore-file=match:.swp$
 --ignore-file=match:.swo$
+--ignore-file=match:.png$
+--ignore-file=match:.ipynb$
