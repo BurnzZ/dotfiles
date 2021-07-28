@@ -10,6 +10,7 @@
 --ignore-dir=build
 --ignore-dir=dist
 --ignore-dir=tmp
+--ignore-dir=.mypy_cache
 --ignore-dir=*.egg-info
 
 --ignore-file=match:.swn$
