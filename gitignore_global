@@ -17,3 +17,5 @@ Desktop.ini
 .mypy_cache
 .cache
 .python-version
+.ipynb_checkpoints
+__pycache__
