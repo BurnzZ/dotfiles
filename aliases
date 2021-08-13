@@ -70,7 +70,7 @@ alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias cleanup_py="find . -type f -iname '*.pyc' -o -iname '*.pyo' -exec rm -rv {} + && find . -type d -name '__pycache__' -exec rm -rv {} +"
 
 # tree
-alias tree='tree -a -C --dirsfirst -I "__pycache__"'
+alias tree='tree -C --dirsfirst -I "__pycache__"'
 
 alias chmox='chmod -x'
 
