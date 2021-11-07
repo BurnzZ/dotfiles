@@ -24,3 +24,9 @@ export LC_ALL=en_US.UTF-8
 export MANPAGER="less -X"
 
 export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+
+# For openAI Gym
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/k/.mujoco/mujoco200/bin
+
+# For X11 UI like Xming
+export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
