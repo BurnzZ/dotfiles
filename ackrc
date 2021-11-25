@@ -1,4 +1,4 @@
-# copied from: http://edoceo.com/cli/ack
+# Mostly copied from: http://edoceo.com/cli/ack
 
 --break
 --color
@@ -13,6 +13,7 @@
 --ignore-dir=.mypy_cache
 --ignore-dir=.tox
 --ignore-dir=*.egg-info
+--ignore-dir=htmlcov
 
 --ignore-file=match:.swn$
 --ignore-file=match:.swp$
