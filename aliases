@@ -62,6 +62,8 @@ alias ..4="cd ../../../.."
 
 alias k="kubectl"
 
+alias e="explorer.exe ."
+
 # easy htop filter
 alias hk='htop -u `whoami`'
 
