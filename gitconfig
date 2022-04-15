@@ -11,3 +11,7 @@
 [alias]
 	d = difftool
     pushf = push --force-with-lease
+[url "ssh://git@github.com/"]
+    insteadOf = git://github.com/
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
