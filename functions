@@ -24,6 +24,12 @@ extract() {
    fi
 }
 
+pe() {
+    pyenv virtualenv $1 $1-$2
+    echo $1-$2 > .python-version
+    pyenv activate
+}
+
 # quick way of finding files
 function f() {
 	find . -name "$1" 2>&1 | grep -v 'Permission denied'
