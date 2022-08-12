@@ -31,6 +31,9 @@ alias pa='pyenv activate'
 alias pd='pyenv deactivate'
 alias pv='pyenv virtualenv'
 
+# tox
+alias tx='tox --skip-pkg-install'
+
 # Git stuff
 alias gs='git status'
 alias gcm='git commit -m'
