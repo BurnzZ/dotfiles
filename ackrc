@@ -21,3 +21,4 @@
 --ignore-file=match:.swo$
 --ignore-file=match:.png$
 --ignore-file=match:.ipynb$
+--ignore-file=match:.vim-bookmarks$
