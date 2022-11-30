@@ -41,8 +41,6 @@ alias gc='git checkout'
 alias gp='git push origin master'
 alias gpu='git pull origin master'
 alias gsp='git submodule foreach git pull origin master'
-alias gd='git d'
-alias gdc='git d --cached --diff-filter=M'
 alias ga='git add'
 alias gsm='git checkout master && gpu && gfe --prune'
 alias grs='git reset HEAD~1 --soft'
@@ -52,11 +50,15 @@ alias gfe='git fetch --all --prune'
 alias gpc='git push -u origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpcf='gpc --force-with-lease'
 
+alias gd='git d'
+alias gdc='git d --cached --diff-filter=M'
+alias gdm='git pretty-diff `git merge-base master $(git rev-parse --abbrev-ref HEAD)`..$(git rev-parse --abbrev-ref HEAD); $BROWSER `wslpath -a -w /tmp/diff.html`'
+
 alias glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 alias glga="glg --all"
 
-alias glg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
-alias glg2a="glg2a --all"
+alias glg2="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset)%C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset)'"
+alias glg2a="glg2 --all"
 
 alias ..="cd .."
 alias ..2="cd ../.."
