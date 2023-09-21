@@ -5,6 +5,7 @@
 --smart-case
 --sort-files
 
+--ignore-dir=venv
 --ignore-dir=env
 --ignore-dir=env2.7
 --ignore-dir=build
@@ -13,8 +14,11 @@
 --ignore-dir=node_modules
 --ignore-dir=.mypy_cache
 --ignore-dir=.tox
+--ignore-dir=.typecoverage
 --ignore-dir=*.egg-info
 --ignore-dir=htmlcov
+--ignore-dir=coverage-html
+--ignore-dir=test-results
 
 --ignore-file=match:.swn$
 --ignore-file=match:.swp$
