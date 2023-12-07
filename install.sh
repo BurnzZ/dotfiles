@@ -12,3 +12,5 @@ for file in ${files[@]}; do
         ln -fs $sourceFile $targetFile
     fi
 done
+
+git config --global core.excludesFile ~/.gitignore_global 
