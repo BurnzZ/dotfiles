@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 declare -a files=(aliases bash_profile bash_prompt exports functions gitconfig ackrc tmux.conf zshrc gitignore_global)
 
